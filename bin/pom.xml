@@ -1,0 +1,43 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.bytedeco.tesseract</groupId>
+    <artifactId>BasicExample</artifactId>
+    <version>1.5</version>
+    <properties>
+        <exec.mainClass>BasicExample</exec.mainClass>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>tesseract-platform</artifactId>
+            <version>4.0.0-1.5</version>
+        </dependency>
+        <dependency>
+        <groupId>com.1stleg</groupId>
+        <artifactId>jnativehook</artifactId>
+        <version>2.0.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/net.imagej/ij -->
+    <dependency>
+        <groupId>net.imagej</groupId>
+        <artifactId>ij</artifactId>
+        <version>1.49c</version>
+    </dependency>
+   
+  
+    <dependency>
+      <groupId>com.google.apis</groupId>
+      <artifactId>google-api-services-vision</artifactId>
+      <version>v1-rev420-1.25.0</version>
+    </dependency>
+  
+
+
+
+    </dependencies>
+    <build>
+        <sourceDirectory>.</sourceDirectory>
+    </build>
+    
+    
+</project>
